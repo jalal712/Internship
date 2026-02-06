@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script src="task.js"></script> -->
+    <script>
+      let answer = Math.floor(Math.random() * 100) + 1;
+      const MAX_ATTEMPT = 10;
+      let userWon = false;
+
+      for (let i = 0; i < MAX_ATTEMPT; i++) {
+        let guess = prompt(`Guess a no. between 1 to 100`);
+        if (guess == answer) {
+          alert(
+            "Congratulation😍😍😍😍😍😍😍.\nYou have guessed the value accurately",
+          );
+          userWon = true;
+          break;
+        } else if (guess > answer) {
+          alert("Guess value is greater");
+        } else {
+          alert("Your guessed values is Small");
+        }
+      }
+
+      if (userWon == false) {
+        alert("You loss😂😂😂😂😂");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+   background-image: url("main1.jpg");
+    background-repeat: no-repeat;
+    /* background fixed rhyga ya nh  */
+    background-attachment: fixed;
+    /* is sy hr screen pr image stretch ho jy gi screen k according */
+    background-size: cover;
+/* 
+    image center mei ayega hr screen pr */
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+ background: linear-gradient(to right, #910013a6, #d5e68d);
+color: rgb(5, 49, 0);
+font-weight: 800;
+font-size: 70px;
+
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+div{
+    background: linear-gradient(to left, #910013a6, #d5e68d);
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+     padding: 10px;
+    border-radius: 20px;
+    color: rgb(5, 49, 0);
+    font-size: 25px;
+    font-weight: 600;
+}

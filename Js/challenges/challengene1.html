@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ticket Design</title>
+    <link rel="stylesheet" href="challenges.css">
 </head>
 <body>
-    
+
+    <div class="ticket-card">
+        
+        <div class="header">
+            <div class="logo">Alpha</div>
+            <div class="flight-details">Flight 5791 /// Nov. 3, 2018</div>
+        </div>
+
+        <div class="passenger-block">
+            <span class="passenger-name">Frida Michele Albers</span>
+            <span class="small-label">PASSENGER</span>
+        </div>
+
+        <div class="row">
+            <div class="info-box" style="width: 45%;">
+                <span class="info-value">08:45AM PST</span>
+                <span class="small-label">BOARDING TIME</span>
+            </div>
+            
+            <div class="info-box" style="width: 45%;">
+                <span class="info-value">AA-23</span>
+                <span class="small-label">GATE</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="info-box" style="width: 30%;">
+                <span class="info-value">ALPHA ONE</span>
+                <span class="small-label">CLASS</span>
+            </div>
+
+            <div class="info-box" style="width: 30%;">
+                <span class="info-value">ZZ</span>
+                <span class="small-label">ZONE</span>
+            </div>
+
+            <div class="info-box" style="width: 30%;">
+                <span class="info-value">2A</span>
+                <span class="small-label">SEAT</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="ticket-bottom">
+        
+        <div class="row">
+            <div class="route-info">
+                <div class="city-block">
+                    <span class="city-code">SEA</span>
+                    <span class="city-name">Seatac, WA</span>
+                </div>
+                
+                <div class="route-icon">▼</div> 
+
+                <div class="city-block">
+                    <span class="city-code">LAX</span>
+                    <span class="city-name">Los Angeles, CA</span>
+                </div>
+            </div>
+
+            <div class="qr-holder">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=AlphaFlight5791" alt="QR Code">
+            </div>
+        </div>
+
+        <div class="actions">
+            <button class="help-btn">?</button>
+            <button class="wallet-btn">Add to wallet</button>
+        </div>
+
+    </div>
 </body>
 </html>

@@ -1,0 +1,174 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+body {
+    background-color: #eee;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.ticket-card {
+    background-color: #ffebee; /* Light Pink */
+    width: 320px;
+    padding: 30px;
+    border-radius: 20px 20px 0 0; /* Top rounded */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* --- Header Section --- */
+.header { 
+    margin-bottom: 20px; 
+}
+
+.logo { 
+    color: #275cf0; 
+    font-size: 24px;
+    font-weight: 600; 
+    margin-bottom: 5px;
+}
+
+.flight-details {
+    color: #144ff2;
+    font-size: 14px;
+}
+
+/* --- Passenger Section --- */
+.passenger-block { 
+    margin-bottom: 30px; 
+}
+
+.passenger-name {
+    display: block;
+   color: #144ff2;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ffccbc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.small-label {
+    color: #ffccbc; 
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.row {
+     display: flex; 
+    justify-content: space-between;
+    margin-bottom: 25px; */
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-value {
+   color: #144ff2;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #ffccbc; 
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+/* --- BOTTOM BLUE SECTION --- */
+.ticket-bottom {
+    background-color: #2962ff; /* Deep Blue Background */
+    width: 320px;
+    padding: 30px;
+    border-radius: 0 0 20px 20px; /* Sirf neeche se gol */
+    color: white;
+    margin-top: -1px; /* Gap khatam karne k liye */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Route Info (SEA - LAX) */
+.route-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.city-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-code {
+    font-size: 32px; /* Bara Text */
+    font-weight: bold;
+    line-height: 1;
+}
+
+.city-name {
+    font-size: 10px;
+    opacity: 0.8; 
+    margin-top: 5px;
+}
+
+.route-icon {
+    color: #c6ff00; 
+    font-size: 14px;
+}
+
+/* QR Code Box */
+.qr-holder {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+/* --- Buttons Section --- */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.help-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border: 2px solid #c6ff00; 
+    background: transparent;
+    color: #c6ff00;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Wallet Button */
+.wallet-btn {
+    background-color: #c6ff00; 
+    color: #2962ff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px; 
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+}

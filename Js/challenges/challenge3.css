@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:  "Aleo", serif;;
+}
+.left_content{
+    color: hwb(218 0% 75%);
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: 3px;
+    background-color: rgb(238, 205, 126);
+    img{
+width: 120px;
+    }
+}
+.left_content p{
+    margin-left: 150px;
+    font-size: xx-large;
+    
+}
+nav{
+    display: flex;
+  h3{
+    font-weight: 700;
+    margin-left:  40px;
+  }
+    li{
+        list-style: none;
+        font-size: normal;
+       cursor: pointer;
+      
+    }
+    ul{
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+    }
+}
+
+.left_button{
+background-color: rgb(14, 79, 99);
+width: 180px; 
+margin-top: 30px;
+margin-left: 150px;
+border: white;
+color: rgb(238, 205, 126);
+height: 38px;
+font-weight: 700;
+font-family: "Aleo";
+cursor: pointer;
+
+}
+.btn_razor{
+    display: flex;
+    gap: 280px;
+    img{
+        width: 300px;
+    border-radius: 80%;
+    }
+}
+
+.right_content{
+    
+    background: #c77079;
+    text-align: center;
+    width: 30%;
+    color: white;
+
+    
+}
+.right_btn{
+    background: rgb(163, 216, 220);
+    color: rgb(0, 62, 86);
+    border: white;
+    width: 150px;
+    height: 30px;
+    font-family: "Aleo";
+    font-weight: 800;
+  cursor: pointer;
+}
+
+.right_lower_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.right_lower_section img{
+  width: 33.33%;
+  height: 100px ;
+}
+.main_content{
+    display: flex;
+    width: 100%;
+}
